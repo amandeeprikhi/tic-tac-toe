@@ -11,38 +11,44 @@
     </script>
 </head>
 <body>
-    <div class="row">
-        <div class="col">
+    <div class="row" id="row1">
+        <div class="offset-md-3 col-md-2">
             <button id="button1" onclick="onClick(this.id)"></button>
         </div>
-        <div class="col">
+        <div class="col-md-2">
                 <button id="button2" onclick="onClick(this.id)"></button>
         </div>
-        <div class="col">
+        <div class="col-md-2">
                 <button id="button3" onclick="onClick(this.id)"></button>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
+    <div class="row" id="row2">
+        <div class="col-md-3">
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+        <div class="col-md-2">
             <button id="button4" onclick="onClick(this.id)"></button>
         </div>
-        <div class="col">
+        <div class="col-md-2">
                 <button id="button5" onclick="onClick(this.id)"></button>
         </div>
-        <div class="col">
+        <div class="col-md-2">
                 <button id="button6" onclick="onClick(this.id)"></button>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
+    <div class="row" id="row3">
+        <div class="offset-md-3 col-md-2">
             <button id="button7" onclick="onClick(this.id)"></button>
         </div>
-        <div class="col">
+        <div class="col-md-2">
                 <button id="button8" onclick="onClick(this.id)"></button>
         </div>
-        <div class="col">
+        <div class="col-md-2">
                 <button id="button9" onclick="onClick(this.id)"></button>
         </div>
+    </div>
+    <div id="restart">
+        Game restarts in 5 seconds!!!
     </div>
 </body>
 </html>
